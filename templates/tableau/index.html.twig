@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TableauController!
+{% endblock %}
+{% block stylesheets %}
+
+	{{ encore_entry_link_tags('app') }}
+{% endblock %}
+{% block body %}
+
+	{% block javascripts %}
+
+		{{ encore_entry_script_tags('app') }}
+
+
+		<div class="row">
+			<div id="root">bienvenue</div>
+		</div>
+	{% endblock %}
+{% endblock %}
